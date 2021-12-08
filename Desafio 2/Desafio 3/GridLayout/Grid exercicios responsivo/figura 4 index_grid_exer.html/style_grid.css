@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    min-height: 97vh;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto ;
+    grid-template-areas:
+    "header header header" 
+    "nav nav nav" 
+    "section section aside" 
+    "footer footer footer";
+    gap: 1vh;
+}
+
+p {
+    margin: 1rem;
+}
+
+.header {
+    width:98vw;
+    font-size:0.6rem;
+    padding-left: 1rem;
+    background: gray;
+    grid-area: header;
+}
+
+.nav {
+    width:98vw;
+    font-size:0.6rem;
+    padding-left: 1rem;
+    color: white;
+    background: blue;
+    grid-area: nav;
+}
+
+.section {
+    width: 72vw;
+    font-size:1rem;
+    padding-left: 1rem;
+    background: lightgray;
+    grid-area: section;
+}
+
+.section p {
+    display:none;
+}
+
+.aside {
+    width: 25vw;
+    font-size:1.2rem;
+    padding-left: 1rem;
+    background: gray;
+    grid-area: aside;
+}
+
+.article {
+    width: 67vw;
+    height: 38vh;
+    font-size:1.2rem;
+    padding-left: 1rem;
+    background: gray;
+    grid-area: article;
+}
+
+.footer {
+    width:98vw;
+    background: gray;
+    grid-area: footer;
+}
+
+.footer h6 {
+    font-size: 1rem;
+    padding-left: 1rem;
+}

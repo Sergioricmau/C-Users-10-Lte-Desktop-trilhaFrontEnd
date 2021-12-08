@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respostas Grid Layout</title>
+</head>
+
+<body>
+    <header>
+        <h1>Grid Layout</h1>
+        <main>
+            <h2>O que é Grid Layout?</h2>
+            <p>a) Ferramenta criada com o intuito de facilitar o processo de criação do layout de uma página em duas
+                dimensões, possibilitando organizar os itens da página com o uso de linhas e colunas, diferentemente do
+                flexbox, como demonstra a imagem.
+            </p>
+            <img src="grid-vs-flexbox.png" width="450px">
+
+            <h2>Cite e dê exemplos das propriedades do Grid Container:</h2>
+            <p>display: grid: Informa o tipo de display que a página terá;</p>
+            <p>grid-template-columns: Define quantas colunas o grid terá e o quanto de espaço elas ocuparão na tela;</p>
+            <p>grid-template-rows: Define quantas linhas o grid terá e o quanto de espaço elas ocuparão;</p>
+            <p></p>grid-column-start: Informa onde determinado elemento irá começar, levando em consideração as boardas
+            das colunas;</p>
+            <p></p>grid-column-end: Informa onde determinado elemento irá terminar, levando em consideração as bordas
+            das colunas;</p>
+            <p>grid-row-start: Informa onde determinado elemento irá terminar, levando em consideração as bordas das
+                linhas;</p>
+            <p>grid-area: Determina uma área no grid, levando em consideração os valores inseridos na ordem: row-start>
+                column-start>row-end>column-end.</p>
+            <p>grid-gap: Adiciona um espaço entre as linhas e depois nas colunas, de acordo com o valor determinado.</p>
+            <h2>Cite e dê exemplos das propriedades do Grid Item:</h2>
+            <p>justify-items: start: Alinha os items no inicio da célula;</p>
+            <p>justify-items: end: Alinha os itens no fim da célula;</p>
+            <p>justify-items: center: Alinha os itens no centro da célula;</p>
+            <p>justify-items: stretch: Estica os itens em horizontal;</p>
+            <p>Alinha os itens no inicio da célula verticalmente;</p>
+            <p>align-items: end: Alinha os itens no fim da célula verticalmente;</p>
+            <p>align-items: center: Alinha os itens no centro da célula verticalmente;</p>
+            <p>align-items: stretch: Estica os itens verticalmente até preencher toda a célula;</p>
+            <p>place-items: Define o alinhamento em uma única declaração, horizontal e verticalmente.</p>
+            <h2>O que é unidade fr?</h2>
+            <img src="fr.jpg" width="450px">
+            <p>São fragmentos, você pode determinar a quantidade de colunas que a página terá e quantos fragmentos do
+                espaço total, que cada parte terá.</p>
+            <h2>O que é notação repeat?</h2>
+            <img src="repeat.png" width="450px">
+            <p>Repete as determinações para as próximas colunas, por exemplo: grid-template-columns: repeat(10, 5%) Ele
+                irá criar 10 colunas, fazendo com que cada uma ocupe 5% de espaço.</p>
+            <h2>O que são as linhas do Grid?</h2>
+            <img src="linhas.jpg" alt="150px">
+            <p>Linhas são as divisões adicionadas no eixo X (horizontal).</p>
+            <h2>O que é uma célula no Grid?</h2>
+            <img src="celula.jpg" width="450px">
+            <p>Célula é a menor unidade em grid, sendo o meio entre duas linhas de colunas e duas linhas de linhas.</p>
+            <h2>O que são áreas do Grid?</h2>
+            <p>Junção de 1 ou mais células.</p>
+        </main>
+
+    </header>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.1rem solid black;
+    text-decoration: black;
+  }
+  
+  #logoTipo {
+    flex-grow: 0;
+    border-color: black;
+    text-decoration:black;
+  }
+  
+  #menu-list {
+    flex-grow: 0.3;
+    border-color: black;
+    text-decoration: blue;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-color: black;
+    text-decoration: blue;
+  }
+  
+  ul a {
+    text-decoration: blue;
+    color: black;
+    border-color: black;
+    text-decoration-style:solid;
+  }
