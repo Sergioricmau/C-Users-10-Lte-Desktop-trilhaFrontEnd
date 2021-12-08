@@ -1,0 +1,55 @@
+.container {
+    border: 0.1rem solid black;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logotipo {
+    padding: 1vw;
+    flex-grow:1;
+    font-size: 1.5rem;
+}
+.menu {
+    flex-grow: 1;
+    font-size: 1.5rem;;
+}
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu a {
+    text-decoration: none;
+    color:black;
+}
+
+.botao {
+    display: none;
+}
+
+@media screen and (max-width: 500px) { /* Media Query é uma técnica popular que
+     permite entregar uma folha de estilo para diferentes dispositivos que têm diferentes
+      tamanhos de tela e resoluções, respectivamente. Eles são usados para personalizar a 
+      aparência de um site em vários dispositivos. Uma consulta de mídia consiste em um tipo 
+      de mídia que pode conter uma ou mais expressões que podem ser verdadeiras ou falsas. */
+    
+    .botao {
+        display: flex;
+        margin:0 1rem 0 0;
+    }
+    .menu {
+        flex-grow:0;
+    }
+    .menu-list {
+        display: none;
+        position: absolute;
+        top: 10vh;
+        right: 1.5vw;
+        border: 0.1rem solid;
+        padding: 0.5rem;
+    }
+
+}

@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    min-height: 97vh;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto ;
+    grid-template-areas:
+    "header header header" 
+    "nav nav nav" 
+    "section section aside" 
+    "footer footer footer";
+    gap: 1vh;
+}
+
+p {
+    margin: 1rem;
+}
+
+.header {
+    width:98vw;
+    font-size:0.6rem;
+    padding-left: 1rem;
+    background: gray;
+    grid-area: header;
+}
+
+.nav {
+    width:98vw;
+    font-size:0.6rem;
+    padding-left: 1rem;
+    color: white;
+    background: blue;
+    grid-area: nav;
+}
+
+.list-menu {
+    display:none;
+}
+
+.section {
+    width: 72vw;
+    font-size:1rem;
+    padding-left: 1rem;
+    background: lightgray;
+    grid-area: section;
+}
+
+.section p {
+    display:none;
+}
+
+.aside {
+    width: 25vw;
+    font-size:1.2rem;
+    padding-left: 1rem;
+    background: gray;
+    grid-area: aside;
+}
+
+.article {
+    width: 67vw;
+    height: 38vh;
+    font-size:1.2rem;
+    padding-left: 1rem;
+    background: gray;
+    grid-area: article;
+}
+
+.footer {
+    width:98vw;
+    background: gray;
+    grid-area: footer;
+}
+
+.footer h6 {
+    font-size: 1rem;
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 480px) { /* @media inicia responsividade */
+
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas:
+        "header header header" 
+        "nav nav nav" 
+        "section section section" 
+        "aside aside aside"
+        "footer footer footer";
+    }
+
+    .header {
+        width:97vw;
+        background: lightgray;
+        grid-area: header;
+    }
+
+    .nav {
+        width:97vw;
+        font-size:1rem;
+        padding:0;
+        color: white;
+        background: blue;
+        grid-area: nav;
+    }
+    .nav h2{
+        display:none;
+    }
+
+    .nav ul {
+        list-style: none;
+    }
+
+    .nav a {
+        color: white;
+    }
+
+    .list-menu {
+        display:block;
+    }
+
+    .list-menu a {
+        color:white;
+    }
+
+    .section {
+        padding:0;
+    }
+
+    .section h3 {
+        display:none;
+    }
+
+    .article p {
+        display:block;
+    }
+
+    .article {
+        width:97vw;
+        height:100%;
+        margin:0;
+        padding: 1vh;
+        background: gray;
+    }
+
+    .aside {
+        width:97vw;
+        background: lightgray;
+        grid-area: aside;
+    }
+
+    .footer {
+        width:97vw;
+        background: lightgray;
+        grid-area: footer;
+    }
+}
