@@ -30,7 +30,7 @@
     display: none;
 }
 
-@media screen and (max-width: 500px) { /* Media Query é uma técnica popular que
+@media  (max-width: 500px) { /* Media Query é uma técnica popular que
      permite entregar uma folha de estilo para diferentes dispositivos que têm diferentes
       tamanhos de tela e resoluções, respectivamente. Eles são usados para personalizar a 
       aparência de um site em vários dispositivos. Uma consulta de mídia consiste em um tipo 
