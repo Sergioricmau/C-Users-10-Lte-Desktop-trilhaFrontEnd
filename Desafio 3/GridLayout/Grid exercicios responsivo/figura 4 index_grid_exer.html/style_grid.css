@@ -29,7 +29,9 @@ p {
 
 .nav {
     width:98vw;
-    font-size:0.6rem;
+    font-size:0.6rem; /* rem; ele fornece uma maneira de especificar comprimentos como frações do tamanho da
+    fonte do elemento raiz. Em termos práticos, isso quase sempre significa o 
+    tamanho da fonte do <html>element.*/
     padding-left: 1rem;
     color: white;
     background: blue;
@@ -37,7 +39,9 @@ p {
 }
 
 .section {
-    width: 72vw;
+    width: 72vw;/*A medida vh é igual a 1/100 da altura da viewport. Então, por exemplo, se a altura do 
+    navegador é 900px, 1vh equivale a 9px e, analogamente, se a largura da viewport é 750px, 
+    1vw equivale a 7.5px.*/
     font-size:1rem;
     padding-left: 1rem;
     background: lightgray;
