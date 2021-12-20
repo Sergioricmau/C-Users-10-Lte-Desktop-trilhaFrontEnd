@@ -1,0 +1,285 @@
+body {
+	background-color: #fff;
+}
+
+.header {
+	padding:2vh;
+}
+
+.container {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+#imagem-logo {
+	width:13vw;
+    display: none;
+}
+
+.logo {
+	display:block;
+    flex-grow:1;
+    padding: 1vw 1vw 1vw 4vw;
+}
+
+.botao {
+	display: none;
+	border: none;
+	background: none;
+}
+
+.headerMenu {
+    flex-grow: 1;
+    font-size: 1.5rem;
+}
+.menuLista {
+    display: flex;
+	padding-right:5vw;
+    justify-content: flex-end;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.headerItem {
+	font-family: 'Barlow', sans-serif;
+	display:flex;
+    text-transform: capitalize;
+	text-decoration: none;
+	color:#99b1c5;
+}
+
+.buttonLogin {
+    background-color: red;
+    border-radius: 45px;
+    border: none;
+    border-style: solid red;
+    
+
+}
+
+
+
+
+.conteudo-principal {
+	display: grid;
+	grid-template-columns: auto auto auto 25vw 8vw;
+	grid-template-rows: auto 20vh auto auto auto;
+}
+
+.imagem {
+    width: 700px;
+    height: 50vh;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+    
+    
+}
+
+img {
+    margin:  80px 0%px 0px 0px;
+   max-width: 100%;
+    
+}
+
+.lateral {
+	padding-bottom:8vh;
+	border-bottom:0.15rem solid #eaedf6;
+	grid-column:3/5;
+}
+
+h1 {
+	font-family: 'arial', sans-serif;
+	padding-bottom: 1vh;
+	text-transform: capitalize;
+	letter-spacing: 0.8vw;
+	font-size: 3rem;
+	text-align: center;
+	color: #b102a8;
+    
+}
+.texto {
+    align-items: center;
+    text-justify: auto;
+}
+
+
+
+.formulario {
+	padding-top:1vh;
+	display:grid;
+	grid-column:4;
+	grid-row:2; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.input {
+    width: 410px;
+    
+    border: 1px solid #afafaf;    
+    
+    display: flex;
+    
+    margin: 1px;
+    
+}
+
+.input i {
+    margin: 10px 0px 0px 10px;
+
+}
+input {
+    width: 400px;
+    border: none;
+    margin: 12px;
+    
+    outline: none;
+}
+
+textarea {
+    
+    border-collapse: 10px;
+    width: 450px;
+    padding: 8px;
+    border: none;
+    
+}
+
+.input__txt {
+    width: 450px;
+    height: 250px;
+    margin-top: 10px;
+    border: solid 1px black;
+    border-collapse: 10px;
+    width: 400px;
+    padding: 5px;
+    border: 1px solid #afafaf;    
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.input__txt i {
+    margin-top: 10px;
+}
+
+
+
+
+button {
+    background-color: red;
+    border-radius: 25px;
+    border: 1px solid #afaeaf;
+    border-style: solid red;
+    width: 150px;
+    height: 35px;
+}
+
+button:hover {
+    cursor: pointer;
+    border-color: #b326ab;
+    background-color: white;
+
+}
+
+@media(max-width: 900px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .conteudo-principal {
+		grid-template-columns: 5vw auto auto auto 5vw;
+		grid-template-rows: auto;
+	}
+    #imagem-logo {
+		width:30vw;
+        display: flex;
+	}
+
+    .headerMenu {
+        position: relative;
+    }
+
+
+	.botao {
+        display: flex;
+        margin: 0 1rem 0 0;
+        justify-content: center;
+        
+    }
+            
+
+    .li {
+        margin: 5px;
+    }
+
+    .headerMenu {
+        flex-grow: 0;
+
+
+
+    }
+    .menuLista {
+        display: none;
+        position: absolute;
+		background:#fff;
+		width:20vw;
+		height:30vh;
+        top: 12vh;
+        right: 2vw;
+        box-shadow: 0.1vw 0.2vw 0.5vw 0.3vw #eaedf6;
+		border:1vw;
+		border-color: #99b1c5;;
+		border-radius: 0.3vw;
+        padding: 0.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+	.headerItem {
+		padding-bottom:2vh;
+	}
+
+    h1 {
+		text-align: center;
+	}
+
+    p {
+		padding:2vw;
+		text-align: right;
+	}
+	
+
+	.texto {
+		text-align: center;
+        padding:2vw;
+	}
+
+	
+	.formulario {
+		grid-column: 3;
+	}
+
+	.campo-formulario {
+		margin:0 20vw;
+	}
+
+    .imagem {
+        display: none;
+    }
+
+
+	.botao-submit {
+		position:absolute;
+		left:30%;
+	}
+}
