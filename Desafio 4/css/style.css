@@ -53,16 +53,15 @@ body {
 }
 
 .buttonLogin {
-    background-color: red;
-    border-radius: 45px;
-    border: none;
-    border-style: solid red;
-    
-
+   background-color: red;
+    border-radius: 15px;
+    border: 1px solid #afaeaf;
+    border-style: none;
+    width: 80px;
+    height: 30px;
+    align-items: flex-start;
+    justify-content: center;
 }
-
-
-
 
 .conteudo-principal {
     display: grid;
@@ -189,44 +188,43 @@ button:hover {
 
 @media(max-width: 900px) {
     * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
     }
 
-    .conteudo-principal {
+     .conteudo-principal {
       grid-template-columns: 5vw auto auto auto 5vw;
-		grid-template-rows: auto;
+      grid-template-rows: auto;
 	}
-    #imagem-logo {
+      #imagem-logo {
 		width:30vw;
         display: flex;
 	}
 
-    .headerMenu {
-        position: relative;
+      .headerMenu {
+      position: relative;
     }
 
 
-	.botao {
-        display: flex;
-        margin: 0 1rem 0 0;
-        justify-content: center;
+      .botao {
+       display: flex;
+       margin: 0 1rem 0 0;
+       justify-content: center;
         
-    }
-            
+	}	            
 
-    .li {
-        margin: 5px;
-    }
+      .li {
+         margin: 5px;
+        }
 
-    .headerMenu {
+        .headerMenu {
         flex-grow: 0;
 
 
-
-    }
-    .menuLista {
+        }
+	
+       .menuLista {
         display: none;
         position: absolute;
 	background:#fff;
@@ -270,10 +268,9 @@ button:hover {
 	margin:0 20vw;
 	}
 
-    .imagem {
+        .imagem {
         display: none;
-    }
-
+	}	
 
 	.botao-submit {
 	position:absolute;
