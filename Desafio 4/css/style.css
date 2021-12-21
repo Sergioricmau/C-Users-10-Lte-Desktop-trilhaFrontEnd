@@ -64,7 +64,7 @@ body {
 }
 
 .buttonLogin {
-   background-color: red;
+    background-color: red;
     border-radius: 15px;
     border: 1px solid #afaeaf;
     border-style: none;
@@ -131,7 +131,7 @@ h1 {
 }
 
 .input {
-    width: 410px;    
+    width: 400px;    
     border: 1px solid #afafaf; 
     display: flex;
     margin: 1px;
@@ -197,7 +197,7 @@ button:hover {
 
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1100px) {
     * {
       margin: 0;
       padding: 0;
@@ -214,7 +214,7 @@ button:hover {
 	}
 
       .headerMenu {
-      position: relative;
+       position: relative;
     }
 
 
@@ -272,7 +272,7 @@ button:hover {
 
 	
 	.formulario {
-		grid-column: 3;
+	grid-column: 3;
 	}
 
 	.campo-formulario {
