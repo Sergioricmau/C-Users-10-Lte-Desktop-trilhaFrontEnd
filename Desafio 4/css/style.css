@@ -273,11 +273,10 @@ button:hover {
 	
 	.formulario {
 	grid-column: 3;
-	}
-
-	.campo-formulario {
 	margin:0 20vw;
 	}
+
+
 
         .imagem {
         display: none;
