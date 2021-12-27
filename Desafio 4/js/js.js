@@ -1,5 +1,5 @@
-const botao = document.querySelector('.botao');
-    const navLinks = document.querySelector ('.menuLista');
-    botao.addEventListener('click',()=>{
+const hamburguer = document.querySelector('.hamburguer');
+    const navLinks = document.querySelector ('.linksMenu');
+    hamburguer.addEventListener('click',()=>{
         navLinks.classList.toggle('open');
     });
