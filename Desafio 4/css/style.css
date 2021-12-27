@@ -1,83 +1,88 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-       
 }
 
-
-
-
-body {
-	background-color: #fff;
-}
-
-.header {
-	padding:2vh;
-}
-
-.container {
+header {
+    width: 100%;
     height: 10vh;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    padding: 0px 10px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+    font-family:'arial';
+    font-weight: bold;
+    color: purple;
+    
 }
-
-
-
-#imagem-logo {
-	width:13vw;
-    display: none;
-}
-
-.logo {
-    display:block;
-    flex-grow:1;
-    padding: 1vw 1vw 1vw 4vw;
-}
-
-.botao {
-	display: none;
-	border: none;
-	background: none;
-}
-
-.headerMenu {
-    flex-grow: 1;
-    font-size: 1.5rem;
-}
-.menuLista {
-    display: flex;
-	padding-right:5vw;
-    justify-content: flex-end;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.headerItem {
-    font-family: 'Barlow', sans-serif;
-    display:flex;
-    text-transform: capitalize;
+a {
     text-decoration: none;
-    color:#99b1c5;
+    color: gray;
 }
 
-.buttonLogin {
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+h2 {
+    display: flex;
+    color: #b326ab;
+}
+
+li {
+    font-family: 'poppins';
+}
+
+.headerMenu ul {
+    display: flex;
+}
+
+.menuItem {
+    font-size: 1rem;
+    margin: 0 5px 15px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 8px;
+    text-transform: none;
+    text-decoration-color: none;
+}
+
+.menuItem:hover {
+    border: solid 1px #b326ab;
+    border-radius: 25px;
+}
+
+.signinButton {
     background-color: red;
-    border-radius: 15px;
+    border-radius: 20px;
     border: 1px solid #afaeaf;
-    border-style: none;
-    width: 80px;
-    height: 30px;
-    align-items: flex-start;
-    justify-content: center;
+    border-style: solid red;
+    width: 150px;
+    height: 25px;
 }
 
-.conteudo-principal {
-    display: grid;
-    grid-template-columns: auto auto auto 25vw 8vw;
-    grid-template-rows: auto 20vh auto auto auto;
+.signinButton:hover {
+    border: solid 1px none;
+    border-radius: 25px;
+    background-color: none;
+   
+}
+
+.formulario1 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 15px;
 }
 
 .imagem {
@@ -91,77 +96,90 @@ body {
 }
 
 img {
-    margin:  80px 0%px 0px 0px;
+    
     max-width: 100%;
+}
+
+.aside {
+    display: grid;
+    width: 500px;
+    height: 70vh;    
+    align-items: center;
+    flex-direction: column;
     
 }
 
-.lateral {
-     padding-bottom:8vh;
-     border-bottom:0.15rem solid #eaedf6;
-     grid-column:3/5;
+.texto {
+    padding: 0px;
+    width: 100%;
+    height: 17vh;
+    text-align: justify;
+    
 }
 
 h1 {
-     font-family: 'arial', sans-serif;
-     padding-bottom: 1vh;
-     text-transform: capitalize;
-     letter-spacing: 0.8vw;
-     font-size: 3rem;
-     text-align: center;
-     color: #b102a8;
+    font-family: 'arial';
+    color: #b326ab;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: start;
     
 }
-.texto {
-    align-items: center;
-    text-justify: auto;
+
+p {
+    text-align: left;    
+    font-family: none;
+    font-weight: 700;
+    margin: 30px 80px 30px 20px ;
+    color: gray;
+    
 }
 
-
-
-.formulario {
-     padding-top:1vh;
-     display:grid;
-     grid-column:4;
-     grid-row:2; 
-     flex-direction: column;
-     align-items: flex-start;
-     justify-content: flex-start;
-
+main {
+    width: 100%;
+    height: 950px;
 }
 
 .input {
-    width: 400px;    
-    border: 1px solid #afafaf; 
+    width: 400px;
+    height: 45px;
+    border: 1px solid #afafaf;    
+    border-collapse: 25px;
     display: flex;
-    margin: 1px;
-    
+    justify-content: flex-start;
+    margin: 10px;
+    justify-items: flex-end;
 }
 
 .input i {
-    margin: 10px 0px 0px 10px;
+    margin: 15px 0px 0px 10px;
 
 }
+
 input {
-    width: 400px;
+    width: 310px;
     border: none;
     margin: 12px;
-    
+    border-radius: 25px;
     outline: none;
+    
 }
 
 textarea {
-    
-    border-collapse: 10px;
-    width: 450px;
-    padding: 8px;
+    border-radius: 0px;
+    width: 420px;
+    padding: none;
     border: none;
+    outline: none;
+    margin: 10px;
+    
     
 }
 
-.input__txt {
-    width: 450px;
-    height: 250px;
+
+.inputTxt {
+    width: 350px;
+    height: 350px;
     margin-top: 10px;
     border: solid 1px black;
     border-collapse: 10px;
@@ -172,14 +190,45 @@ textarea {
     justify-content: center;
 }
 
-
-
-.input__txt i {
+.inputTxt i {
     margin-top: 10px;
 }
 
+.formulario2 {
+    margin-top: 75px;
+    width: 400px;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 
+#message {
+    font-family: 'arial';
+    font-weight: 900;
 
+}
+
+.emailUsuario {
+    font-family: 'arial';
+    font-weight: 900;
+}
+
+.btn {
+    display: flex;
+    margin: 10px 10px 10px -250px;
+    align-items: start;
+
+}
+
+.formulario1 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 button {
     background-color: red;
@@ -188,102 +237,113 @@ button {
     border-style: solid red;
     width: 150px;
     height: 35px;
+    align-content: start;
+    
 }
 
 button:hover {
     cursor: pointer;
-    border-color: #b326ab;
+    border-color: #d1aacf;
     background-color: white;
-
+    align-items: flex-start;
+    padding: 0% 100% 0% 0%;
 }
 
-@media(max-width: 1100px) {
+
+
+@media(max-width: 900px) {
     * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-     .conteudo-principal {
-      grid-template-columns: 5vw auto auto auto 5vw;
-      grid-template-rows: auto;
-	}
-      #imagem-logo {
-		width:30vw;
-        display: flex;
-	}
-
-      .headerMenu {
-       position: relative;
+        margin: 0;
+        padding: 0;        
     }
 
 
-      .botao {
-       display: flex;
-       margin: 0 1rem 0 0;
-       justify-content: center;
-        
-	}	            
+    .header {
+        justify-content: end;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
 
-      .li {
-         margin: 5px;
-        }
+    .linha {
+        width: 40px;
+        height: 5px;
+        background-color: #b326ab;
+        margin: 6px;
+    }
 
-        .headerMenu {
-        flex-grow: 0;
+    .linha:hover {
+        cursor: pointer;
+    }
 
+    .headerMenu {
+        position: relative;
+    }
 
-        }
-	
-       .menuLista {
-        display: none;
+    .hamburger {
         position: absolute;
-	background:#fff;
-	width:20vw;
-	height:30vh;
-        top: 12vh;
-        right: 2vw;
-        box-shadow: 0.1vw 0.2vw 0.5vw 0.3vw #eaedf6;
-        border:1vw;
-	border-color: #99b1c5;;
-	border-radius: 0.3vw;
-        padding: 0.5rem;
-        flex-direction: column;
-        align-items: flex-start;
+        right: 100%;
+        top: -15px;
+        cursor: pointer;
+        justify-content: end;
     }
-	.headerItem {
-        padding-bottom:2vh;
-	}
 
+    .hamburger:hover {
+        background-color: white;
+        border-radius: 180px;
+    }
+
+    li {
+        margin: 5px;
+    }
+
+    .linksMenu {
+        width: 200px;
+        height: 250px;
+        padding-right: 19px;
+        background-color: #a50f9e;
+        position: fixed;
+        right: -100vw;
+        top: 10vh;
+        z-index: 2;
+        flex-direction: column;
+        padding: 5% 5% 5% 5%;
+        align-items: flex-start;
+        font-family: 'poppins';        
+    }
+    
     h1 {
-	text-align: center;
-	}
+        align-items: left;
+        text-transform: uppercase;
+        font-size: 8.5vw;
+        margin: auto;
+    }
 
     p {
-	padding:2vw;
-	text-align: right;
-	}
-	
+        justify-content: center;
+        margin: 0px 80px 10px 0px;
+    }
 
-	.texto {
-	text-align: center;
-        padding:2vw;
-	}
-
-	
-	.formulario {
-	grid-column: 3;
-	margin:0 20vw;
-	}
-
-
-
-        .imagem {
+    h2 {
         display: none;
-	}	
+    }
+    
 
-	.botao-submit {
-	position:absolute;
-	left:30%;
-	}
+    button {
+        margin: 15px -300px 0px 0px;
+        background-color: purple;        
+        
+    }
+
+    .linksMenu.open {
+        right: 0px;
+    }
+
+    
+
+    .imagem {
+        display: none;
+    }
+
 }
