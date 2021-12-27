@@ -72,8 +72,7 @@ li {
 .signinButton:hover {
     border: solid 1px none;
     border-radius: 25px;
-    background-color: none;
-   
+    background-color: none;   
 }
 
 .formulario1 {
@@ -90,9 +89,7 @@ li {
     height: 50vh;
     display: flex;
     align-items:center;
-    justify-content: end;
-    
-    
+    justify-content: end;  
 }
 
 img {
@@ -171,8 +168,7 @@ textarea {
     padding: none;
     border: none;
     outline: none;
-    margin: 10px;
-    
+    margin: 10px;    
     
 }
 
