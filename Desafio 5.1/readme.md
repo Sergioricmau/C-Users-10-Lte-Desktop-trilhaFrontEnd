@@ -82,6 +82,9 @@ Crie uma interpolação com o seu nome, com nome do seu guia, data do desafio e 
 
 Arquivo "comitado", no GitHub.
 
+
+[[https://github.com/Sergioricmau/C-Users-10-Lte-Desktop-trilhaFrontEnd/blob/main/Desafio%205.1/Print%20Interpola%C3%A7%C3%A3o.png|alt=octocat]]
+
 ![Print Interpolação] (https://github.com/Sergioricmau/C-Users-10-Lte-Desktop-trilhaFrontEnd/blob/main/Desafio%205.1/Print%20Interpola%C3%A7%C3%A3o.png)
 
 
