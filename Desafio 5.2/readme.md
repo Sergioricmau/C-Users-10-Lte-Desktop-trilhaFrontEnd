@@ -63,7 +63,7 @@ R: styleUrls - Define arquivos CSSs separados em um componente, po sua vez, orga
 
 Exemplo 2: @Component({
 selector: 'app-component-overview',
-template: '<h1>Hello World!</h1>',
+template: '<h1></h1>',
 styles: ['h1 { font-weight: normal; }']
 })
 
@@ -110,16 +110,27 @@ Para definir a saída de uma rota, utiliza o path dentro da rota criada e coloca
 
 VII. Dê um exemplo de um botão chamando uma rota através de um método em angular.
 
-<button [routerlink]="['  ']>" [state]="{ valorRota: numeroComponemt }">
- é {{ Component }} resultado? </button>
+ “[…]
+ 
+ 
+ escrito em linguagem 
+
+//**<button [routerlink]="['  ']>" [state]="{ valorRota: numeroComponemt }">
+ é {{ Component }} resultado? </button>**/  
+ 
+ […]”
 
  VIII. Dê um exemplo de um botão chamando uma rota sem chamar um método em angular.
+ 
+ “[…]
 
 <h1 href="../cubo">
  <button>
   teste
 </button>
 <h1>
+ 
+ […]”
 
 IX. O que é Lazy Load? Dê um exemplo da definição de uma rota em angular utilizando Lazy Load.
 
