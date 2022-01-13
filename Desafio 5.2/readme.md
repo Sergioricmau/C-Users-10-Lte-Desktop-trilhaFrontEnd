@@ -42,7 +42,7 @@ R:  Referencia arquivos HTML separados em um componente, sendo recomendado para 
 
 Exemplo 2: @Component({
  selector: 'app-component-overview',
- template: '<h1>Hello World!</h1>'
+ template: <h1></h1>
  })
 
 R: É a forma de definir estruturas HTML inline.
