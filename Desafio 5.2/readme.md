@@ -63,7 +63,7 @@ R: styleUrls - Define arquivos CSSs separados em um componente, po sua vez, orga
 
 Exemplo 2: @Component({
 selector: 'app-component-overview',
-template: '<h1'>Hello World!</'h1>',
+template: '<h1>Hello World!</h1>',
 styles: ['h1 { font-weight: normal; }']
 })
 
@@ -72,9 +72,11 @@ R: Define o estilo inline, aplicando o estilo diretamento no valor da propriedad
 
 
 
-<h1>Hands-on 1 e 2.</h1>
+Hands-on 1 e 2.
 
 Arquivos enviados GitHub, Desafio 7.
+
+
 
 
 
