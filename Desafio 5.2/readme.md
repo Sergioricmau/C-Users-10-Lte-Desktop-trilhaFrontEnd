@@ -76,6 +76,13 @@ Hands-on 1 e 2.
 
 Arquivos enviados GitHub, Desafio 7.
 
+![Captura de tela 2022-01-13 150735](https://user-images.githubusercontent.com/94474174/149392429-623c1aec-5a7e-4ff4-a2c6-dfeacf32e466.png)
+
+![Captura de tela 2022-01-13 150918](https://user-images.githubusercontent.com/94474174/149392433-490e5f8c-21fb-4a4e-8561-4728bf932b67.png)
+
+![Captura de tela 2022-01-13 151006](https://user-images.githubusercontent.com/94474174/149392435-42d2dd19-9b0c-4554-a921-0e1a9c6921a9.png)
+
+
 
 
 
