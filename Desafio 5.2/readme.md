@@ -122,13 +122,15 @@ VII. Dê um exemplo de um botão chamando uma rota através de um método em ang
 
  VIII. Dê um exemplo de um botão chamando uma rota sem chamar um método em angular.
  
- “[…]
+ “[…] 
+ 
+ escrito em linguagem
 
-<h1 href="../cubo">
+<h href="../cubo">
  <button>
   teste
 </button>
-<h1>
+</h>
  
  […]”
 
